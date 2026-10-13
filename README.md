@@ -12,6 +12,8 @@ package with three parts:
 | `skills/channel3-shopping/` | Teaches the agent how to search well and how to show results as product cards. |
 | `desktop/plugin.js` | Hermes Desktop transcript directives that render product cards inline. |
 
+![Product cards in a Hermes Desktop chat](docs/cards.png)
+
 ## Install
 
 ```bash
@@ -36,6 +38,8 @@ The agent writes a directive carrying product ids only:
 - `channel3-product`: one detailed card with an image gallery, every variant
   option, key features, the description, and a comparison of every store's
   price with a Buy button for each.
+
+![Product detail view with variants and store comparison](docs/detail.png)
 
 The cards load product data themselves and resolve a variant when the user
 picks a color or size, so variant switching never goes through the model.
