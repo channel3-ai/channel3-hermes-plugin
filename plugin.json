@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "channel3",
+  "version": "0.1.0",
+  "description": "Search 100M+ products across thousands of US retailers through the Channel3 MCP server, with a shopping skill and inline product cards (variant switching, multi-store offers) for Hermes Desktop.",
+  "author": {
+    "name": "Channel3",
+    "url": "https://trychannel3.com"
+  },
+  "homepage": "https://trychannel3.com",
+  "repository": "https://github.com/channel3-ai/channel3-hermes-plugin",
+  "license": "MIT",
+  "keywords": ["channel3", "shopping", "products", "ecommerce", "price-comparison", "mcp"]
+}
